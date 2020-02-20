@@ -43,4 +43,26 @@ Public Class Form1
 
         MessageBox.Show("XML file saved.")
     End Sub
+
+    Private Sub jsonBTN_Click(sender As Object, e As EventArgs) Handles jsonBTN.Click
+        Dim data As New Info()
+        data.Name = nameTB.Text
+        data.Age = ageTB.Text
+        data.Address = AddressTB.Text
+
+        Dim json As String = JsonConvert.SerializeObject(data, Newtonsoft.Json.Formatting.Indented)
+        Dim file As IO.StreamWriter
+        file = My.Computer.FileSystem.OpenTextFileWriter("C:\HW\" + filenameTB.Text + ".json", True)
+        file.WriteLine(json)
+        file.Close()
+        MessageBox.Show("JSON file saved.")
+    End Sub
+
+
+End Class
+
+Public Class Info
+    Public Property Name As String
+    Public Property Age As String
+    Public Property Address As String
 End Class
