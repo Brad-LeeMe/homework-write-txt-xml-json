@@ -32,13 +32,14 @@ Partial Class Form1
         Me.xmlBTN = New System.Windows.Forms.Button()
         Me.jsonBTN = New System.Windows.Forms.Button()
         Me.filenameTB = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
-        Me.Label1.Location = New System.Drawing.Point(172, 29)
+        Me.Label1.Location = New System.Drawing.Point(160, 29)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(52, 20)
+        Me.Label1.Size = New System.Drawing.Size(64, 20)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Name:"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -61,18 +62,18 @@ Partial Class Form1
         '
         'Label2
         '
-        Me.Label2.Location = New System.Drawing.Point(172, 63)
+        Me.Label2.Location = New System.Drawing.Point(160, 63)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(52, 20)
+        Me.Label2.Size = New System.Drawing.Size(64, 20)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Age:"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label3
         '
-        Me.Label3.Location = New System.Drawing.Point(172, 98)
+        Me.Label3.Location = New System.Drawing.Point(160, 98)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(52, 20)
+        Me.Label3.Size = New System.Drawing.Size(64, 20)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Address:"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -116,11 +117,21 @@ Partial Class Form1
         Me.filenameTB.Size = New System.Drawing.Size(100, 20)
         Me.filenameTB.TabIndex = 9
         '
+        'Label4
+        '
+        Me.Label4.Location = New System.Drawing.Point(157, 132)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(67, 20)
+        Me.Label4.TabIndex = 10
+        Me.Label4.Text = "File Name:"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(565, 359)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.filenameTB)
         Me.Controls.Add(Me.jsonBTN)
         Me.Controls.Add(Me.xmlBTN)
@@ -148,4 +159,5 @@ Partial Class Form1
     Friend WithEvents xmlBTN As Button
     Friend WithEvents jsonBTN As Button
     Friend WithEvents filenameTB As TextBox
+    Friend WithEvents Label4 As Label
 End Class
