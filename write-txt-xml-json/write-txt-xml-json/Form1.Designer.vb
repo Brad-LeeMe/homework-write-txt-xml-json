@@ -24,13 +24,14 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.nameTB = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.txtBTN = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.ageTB = New System.Windows.Forms.TextBox()
         Me.AddressTB = New System.Windows.Forms.TextBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.xmlBTN = New System.Windows.Forms.Button()
+        Me.jsonBTN = New System.Windows.Forms.Button()
+        Me.filenameTB = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -49,14 +50,14 @@ Partial Class Form1
         Me.nameTB.Size = New System.Drawing.Size(100, 20)
         Me.nameTB.TabIndex = 1
         '
-        'Button1
+        'txtBTN
         '
-        Me.Button1.Location = New System.Drawing.Point(126, 168)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "txt"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.txtBTN.Location = New System.Drawing.Point(126, 168)
+        Me.txtBTN.Name = "txtBTN"
+        Me.txtBTN.Size = New System.Drawing.Size(75, 23)
+        Me.txtBTN.TabIndex = 2
+        Me.txtBTN.Text = "txt"
+        Me.txtBTN.UseVisualStyleBackColor = True
         '
         'Label2
         '
@@ -90,36 +91,44 @@ Partial Class Form1
         Me.AddressTB.Size = New System.Drawing.Size(100, 20)
         Me.AddressTB.TabIndex = 6
         '
-        'Button2
+        'xmlBTN
         '
-        Me.Button2.Location = New System.Drawing.Point(245, 168)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 7
-        Me.Button2.Text = "xml"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.xmlBTN.Location = New System.Drawing.Point(245, 168)
+        Me.xmlBTN.Name = "xmlBTN"
+        Me.xmlBTN.Size = New System.Drawing.Size(75, 23)
+        Me.xmlBTN.TabIndex = 7
+        Me.xmlBTN.Text = "xml"
+        Me.xmlBTN.UseVisualStyleBackColor = True
         '
-        'Button3
+        'jsonBTN
         '
-        Me.Button3.Location = New System.Drawing.Point(362, 168)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 8
-        Me.Button3.Text = "json"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.jsonBTN.Location = New System.Drawing.Point(362, 168)
+        Me.jsonBTN.Name = "jsonBTN"
+        Me.jsonBTN.Size = New System.Drawing.Size(75, 23)
+        Me.jsonBTN.TabIndex = 8
+        Me.jsonBTN.Text = "json"
+        Me.jsonBTN.UseVisualStyleBackColor = True
+        '
+        'filenameTB
+        '
+        Me.filenameTB.Location = New System.Drawing.Point(261, 133)
+        Me.filenameTB.Name = "filenameTB"
+        Me.filenameTB.Size = New System.Drawing.Size(100, 20)
+        Me.filenameTB.TabIndex = 9
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(565, 359)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.filenameTB)
+        Me.Controls.Add(Me.jsonBTN)
+        Me.Controls.Add(Me.xmlBTN)
         Me.Controls.Add(Me.AddressTB)
         Me.Controls.Add(Me.ageTB)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.txtBTN)
         Me.Controls.Add(Me.nameTB)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
@@ -131,11 +140,12 @@ Partial Class Form1
 
     Friend WithEvents Label1 As Label
     Friend WithEvents nameTB As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents txtBTN As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents ageTB As TextBox
     Friend WithEvents AddressTB As TextBox
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents xmlBTN As Button
+    Friend WithEvents jsonBTN As Button
+    Friend WithEvents filenameTB As TextBox
 End Class
