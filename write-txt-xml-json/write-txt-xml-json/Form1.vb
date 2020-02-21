@@ -2,7 +2,7 @@
 Imports System.Xml
 Imports Newtonsoft.Json
 
-Public Class Form1
+Public Class Writer
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
@@ -45,24 +45,19 @@ Public Class Form1
     End Sub
 
     Private Sub jsonBTN_Click(sender As Object, e As EventArgs) Handles jsonBTN.Click
-        Dim data As New Info()
+        Dim data As New Data()
         data.Name = nameTB.Text
         data.Age = ageTB.Text
         data.Address = AddressTB.Text
 
         Dim json As String = JsonConvert.SerializeObject(data, Newtonsoft.Json.Formatting.Indented)
-        Dim file As IO.StreamWriter
-        file = My.Computer.FileSystem.OpenTextFileWriter("C:\HW\" + filenameTB.Text + ".json", True)
-        file.WriteLine(json)
-        file.Close()
+        Dim writer As IO.StreamWriter
+        writer = My.Computer.FileSystem.OpenTextFileWriter("C:\HW\" + filenameTB.Text + ".json", True)
+        writer.WriteLine(json)
+        writer.Close()
         MessageBox.Show("JSON file saved.")
     End Sub
 
 
 End Class
 
-Public Class Info
-    Public Property Name As String
-    Public Property Age As String
-    Public Property Address As String
-End Class

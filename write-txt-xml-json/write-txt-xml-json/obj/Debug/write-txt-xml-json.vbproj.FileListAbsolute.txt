@@ -5,10 +5,10 @@ C:\Users\test001\Documents\IODFS\homework-write-txt-xml-json\write-txt-xml-json\
 C:\Users\test001\Documents\IODFS\homework-write-txt-xml-json\write-txt-xml-json\write-txt-xml-json\bin\Debug\Newtonsoft.Json.dll
 C:\Users\test001\Documents\IODFS\homework-write-txt-xml-json\write-txt-xml-json\write-txt-xml-json\bin\Debug\Newtonsoft.Json.xml
 C:\Users\test001\Documents\IODFS\homework-write-txt-xml-json\write-txt-xml-json\write-txt-xml-json\obj\Debug\write-txt-xml-json.vbprojAssemblyReference.cache
-C:\Users\test001\Documents\IODFS\homework-write-txt-xml-json\write-txt-xml-json\write-txt-xml-json\obj\Debug\write_txt_xml_json.Form1.resources
 C:\Users\test001\Documents\IODFS\homework-write-txt-xml-json\write-txt-xml-json\write-txt-xml-json\obj\Debug\write_txt_xml_json.Resources.resources
 C:\Users\test001\Documents\IODFS\homework-write-txt-xml-json\write-txt-xml-json\write-txt-xml-json\obj\Debug\write-txt-xml-json.vbproj.GenerateResource.cache
 C:\Users\test001\Documents\IODFS\homework-write-txt-xml-json\write-txt-xml-json\write-txt-xml-json\obj\Debug\write-txt-xml-json.vbproj.CopyComplete
 C:\Users\test001\Documents\IODFS\homework-write-txt-xml-json\write-txt-xml-json\write-txt-xml-json\obj\Debug\write-txt-xml-json.exe
 C:\Users\test001\Documents\IODFS\homework-write-txt-xml-json\write-txt-xml-json\write-txt-xml-json\obj\Debug\write-txt-xml-json.xml
 C:\Users\test001\Documents\IODFS\homework-write-txt-xml-json\write-txt-xml-json\write-txt-xml-json\obj\Debug\write-txt-xml-json.pdb
+C:\Users\test001\Documents\IODFS\homework-write-txt-xml-json\write-txt-xml-json\write-txt-xml-json\obj\Debug\write_txt_xml_json.Writer.resources

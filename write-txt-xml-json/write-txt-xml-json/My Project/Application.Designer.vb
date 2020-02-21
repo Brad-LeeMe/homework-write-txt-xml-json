@@ -32,7 +32,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.write_txt_xml_json.Form1
+            Me.MainForm = Global.write_txt_xml_json.Writer
         End Sub
     End Class
 End Namespace

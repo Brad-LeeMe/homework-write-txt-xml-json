@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Writer
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -37,7 +37,7 @@ Partial Class Form1
         '
         'Label1
         '
-        Me.Label1.Location = New System.Drawing.Point(160, 29)
+        Me.Label1.Location = New System.Drawing.Point(54, 50)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(64, 20)
         Me.Label1.TabIndex = 0
@@ -46,14 +46,14 @@ Partial Class Form1
         '
         'nameTB
         '
-        Me.nameTB.Location = New System.Drawing.Point(261, 29)
+        Me.nameTB.Location = New System.Drawing.Point(155, 50)
         Me.nameTB.Name = "nameTB"
         Me.nameTB.Size = New System.Drawing.Size(100, 20)
         Me.nameTB.TabIndex = 1
         '
         'txtBTN
         '
-        Me.txtBTN.Location = New System.Drawing.Point(126, 168)
+        Me.txtBTN.Location = New System.Drawing.Point(20, 168)
         Me.txtBTN.Name = "txtBTN"
         Me.txtBTN.Size = New System.Drawing.Size(75, 23)
         Me.txtBTN.TabIndex = 2
@@ -62,7 +62,7 @@ Partial Class Form1
         '
         'Label2
         '
-        Me.Label2.Location = New System.Drawing.Point(160, 63)
+        Me.Label2.Location = New System.Drawing.Point(54, 84)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(64, 20)
         Me.Label2.TabIndex = 3
@@ -71,7 +71,7 @@ Partial Class Form1
         '
         'Label3
         '
-        Me.Label3.Location = New System.Drawing.Point(160, 98)
+        Me.Label3.Location = New System.Drawing.Point(54, 119)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(64, 20)
         Me.Label3.TabIndex = 4
@@ -80,21 +80,21 @@ Partial Class Form1
         '
         'ageTB
         '
-        Me.ageTB.Location = New System.Drawing.Point(261, 63)
+        Me.ageTB.Location = New System.Drawing.Point(155, 84)
         Me.ageTB.Name = "ageTB"
         Me.ageTB.Size = New System.Drawing.Size(100, 20)
         Me.ageTB.TabIndex = 5
         '
         'AddressTB
         '
-        Me.AddressTB.Location = New System.Drawing.Point(261, 98)
+        Me.AddressTB.Location = New System.Drawing.Point(155, 119)
         Me.AddressTB.Name = "AddressTB"
         Me.AddressTB.Size = New System.Drawing.Size(100, 20)
         Me.AddressTB.TabIndex = 6
         '
         'xmlBTN
         '
-        Me.xmlBTN.Location = New System.Drawing.Point(245, 168)
+        Me.xmlBTN.Location = New System.Drawing.Point(139, 168)
         Me.xmlBTN.Name = "xmlBTN"
         Me.xmlBTN.Size = New System.Drawing.Size(75, 23)
         Me.xmlBTN.TabIndex = 7
@@ -103,7 +103,7 @@ Partial Class Form1
         '
         'jsonBTN
         '
-        Me.jsonBTN.Location = New System.Drawing.Point(362, 168)
+        Me.jsonBTN.Location = New System.Drawing.Point(256, 168)
         Me.jsonBTN.Name = "jsonBTN"
         Me.jsonBTN.Size = New System.Drawing.Size(75, 23)
         Me.jsonBTN.TabIndex = 8
@@ -112,25 +112,25 @@ Partial Class Form1
         '
         'filenameTB
         '
-        Me.filenameTB.Location = New System.Drawing.Point(261, 133)
+        Me.filenameTB.Location = New System.Drawing.Point(155, 16)
         Me.filenameTB.Name = "filenameTB"
         Me.filenameTB.Size = New System.Drawing.Size(100, 20)
         Me.filenameTB.TabIndex = 9
         '
         'Label4
         '
-        Me.Label4.Location = New System.Drawing.Point(157, 132)
+        Me.Label4.Location = New System.Drawing.Point(51, 18)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(67, 20)
+        Me.Label4.Size = New System.Drawing.Size(67, 18)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "File Name:"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Form1
+        'Writer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(565, 359)
+        Me.ClientSize = New System.Drawing.Size(351, 226)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.filenameTB)
         Me.Controls.Add(Me.jsonBTN)
@@ -142,8 +142,11 @@ Partial Class Form1
         Me.Controls.Add(Me.txtBTN)
         Me.Controls.Add(Me.nameTB)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "Writer"
+        Me.ShowIcon = False
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Writer"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
