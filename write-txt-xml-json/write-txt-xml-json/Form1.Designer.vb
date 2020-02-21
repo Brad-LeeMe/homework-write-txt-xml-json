@@ -142,6 +142,7 @@ Partial Class Writer
         Me.Controls.Add(Me.txtBTN)
         Me.Controls.Add(Me.nameTB)
         Me.Controls.Add(Me.Label1)
+        Me.MaximizeBox = False
         Me.Name = "Writer"
         Me.ShowIcon = False
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
